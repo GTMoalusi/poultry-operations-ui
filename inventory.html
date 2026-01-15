@@ -42,34 +42,52 @@
 
     <main>
       <section>
-        <h2>Inventory</h2>
+        <h2>Egg Inventory Records</h2>
+        <table>
+          <caption>
+            Egg Storage Records
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Batch ID</th>
+              <th scope="col">Product Type</th>
+              <th scope="col">Storage Location</th>
+              <th scope="col">Quantity (Units)</th>
+              <th scope="col">Condition</th>
+              <th scope="col">Storage Date</th>
+              <th scope="col">Remarks</th>
+            </tr>
+          </thead>
 
-        <section>
-          <h3>Egg Inventory</h3>
-          <article>
-            <h4>Approved Stock</h4>
-            <p>These are packages in good condition for distribution.</p>
-          </article>
-          <article>
-            <h4>Non-Conforming Stock</h4>
-            <p>These are damaged packages while in storage.</p>
-          </article>
-        </section>
+          <tbody>
+            <tr>
+              <td>EGG-2026-01-13-LH-01</td>
+              <td>Table Eggs</td>
+              <td>CR-01</td>
+              <td>11,800</td>
+              <td>Approved</td>
+              <td>2026-01-13</td>
+              <td>Ready for dispatch</td>
+            </tr>
 
-        <section>
-          <h3>Broiler Inventory</h3>
-          <article>
-            <h4>Approved Stock</h4>
-            <p>These are packages in good condition for distribution.</p>
-          </article>
-          <article>
-            <h4>Non-Conforming Stock</h4>
-            <p>
-              These are packages that are not ready for distribution, some could
-              be past acceptable selling age, some could be damaged packages.
-            </p>
-          </article>
-        </section>
+            <tr>
+              <td>EGG-2026-01-14-LH-02</td>
+              <td>Table Eggs</td>
+              <td>CR-02</td>
+              <td>11,950</td>
+              <td>On Hold</td>
+              <td>2026-01-14</td>
+              <td>Pending QC clearance</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Inventory records track egg batches stored within designated cold
+          storage locations. Each entry links stored quantities to production
+          batch identifiers and quality control outcomes to ensure cold-chain
+          compliance, stock accuracy, and traceability throughout the
+          distribution process.
+        </p>
       </section>
     </main>
 
