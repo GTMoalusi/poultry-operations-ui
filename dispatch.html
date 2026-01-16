@@ -41,23 +41,85 @@
     </nav>
 
     <main>
+      <h2>Distribution</h2>
       <section>
-        <h2>Distribution</h2>
+        <h3>Standard Dispatched - Approved Batches</h3>
+        <table>
+          <caption>
+            Standard Dispatch - Approved Batches
+          </caption>
 
-        <section>
-          <h3>Egg Distribution</h3>
-          <article>
-            <h4>Retailers</h4>
-            <p>Retailers scheduled for delivery and pickup.</p>
-          </article>
-        </section>
-        <section>
-          <h3>Broiler Distribution</h3>
-          <article>
-            <h4>Retailers</h4>
-            <p>Retailers scheduled for delivery and pickup.</p>
-          </article>
-        </section>
+          <thead>
+            <tr>
+              <th scope="col">Dispatch ID</th>
+              <th scope="col">Batch ID</th>
+              <th scope="col">Quantity Dispatched</th>
+              <th scope="col">Dispatch Date</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Dispatch Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>DSP-2026-01-15-001</td>
+              <td>EGG-2026-01-13-LH-01</td>
+              <td>8,000</td>
+              <td>2026-01-15</td>
+              <td>Retailer A</td>
+              <td>Dispatched</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Standard dispatch records track batches that have been approved and
+          released for distribution.
+        </p>
+      </section>
+
+      <section>
+        <h3>Conditional Dispatch — Concession Required</h3>
+        <table>
+          <caption>
+            Conditional Dispatch - Concession Required
+          </caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Dispatch ID</th>
+              <th scope="col">Batch ID</th>
+              <th scope="col">Quantity Dispatched</th>
+              <th scope="col">Concession Approved By</th>
+              <th scope="col">Concession Reason</th>
+              <th scope="col">Special Handling Notes</th>
+              <th scope="col">Destination</th>
+              <th scope="col">Dispatch Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>CSP-2026-01-15-001</td>
+              <td>EGG-2026-01-13-LH-02</td>
+              <td>4,000</td>
+              <td>Tshepang Moalusi</td>
+              <td>Approved: Eggs passed all tests.</td>
+              <td>Sell locally</td>
+              <td>Retailer B</td>
+              <td>Dispatched</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Conditional dispatch table tracks all the batches that were not passed
+          by the normal food safety standard. They go through quality controlled
+          measures, get concessioned and their dispatch process is tightly
+          controlled. It houses the dispatch ID, batch ID, quantity dispatched,
+          who concessioned and reasons for concessioning the batch. Handling
+          instructions are noted down and where they are going is tracked.
+        </p>
       </section>
     </main>
 
@@ -68,7 +130,7 @@
         &copy; 2026 M's Organic Poultry
       </p>
       <p>
-        <a href="/privacy-policy">Privacy Policy</a> |
+        <a href="/privacy-policy">Privacy Policy</a>
         <a href="/terms-of-service">Terms of Service</a>
       </p>
     </footer>
